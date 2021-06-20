@@ -1,1 +1,12 @@
 node_modules/
+config/
+.DS_Store
+config/config.json
+config.json
+
+.env
+
+config.json
+
+chapter9/config/config.json
+

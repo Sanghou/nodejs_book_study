@@ -44,7 +44,7 @@ module.exports = class User extends (
 
   static associate(db) {
     db.User.hasMany(db.Post);
-    db.Usre.belongsToMany(db.User, {
+    db.User.belongsToMany(db.User, {
       foreignKey: "followingId",
       as: "Followers",
       through: "Follow",
